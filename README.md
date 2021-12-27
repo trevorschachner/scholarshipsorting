@@ -2,17 +2,21 @@
 
 Combine pdf files into one file for scholarship grading
 
-*WARNING: This file will delete (almost) all .pdf files in the directory it is run in. **Use with caution.***
+## Dependecies
+- Pandas: `pip install pandas`
+- fitz: `pip install PyMuPDF`
+- Python 3
+
 
 ## Usage 
 
-### Setup
 ```
-pip install pandas
-pip install PyMuPDF
-```
+# check python version
+python --version
+python3 --version
 
-### Run
-```
+# run with Python 3
 python scholarshipsorting.py
+# or
+python3 scholarshipsorting.py
 ```
